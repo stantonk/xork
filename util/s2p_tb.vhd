@@ -22,6 +22,7 @@ begin
 	--TODO:
 	verify : process
 	begin
+		wait;
 	end process;
 	
 	dut : entity xork.s2p(rtl)

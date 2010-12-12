@@ -4,7 +4,8 @@ use ieee.std_logic_1164.all;
 
 -- s2p
 -- serial to parallel conversion
--- port(clk, rst, din, din_v, dout, dout_v);
+-- generic map(WIDTH);
+-- port map (clk, rst, din, din_v, dout, dout_v);
 entity s2p is
 	generic (WIDTH: natural);
 	port (
