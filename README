@@ -1,0 +1,8 @@
+welcome to xork!
+
+xork is intended to be a synthesizable open source VHDL library of commonly used modules 
+xork want's you to stop reinventing the wheel 
+xork want's you to be creative 
+xork is a play on VHDL's default working directory, "work". clever, i know :-) 
+xork was conceived http://www.tekphile.com/2010/12/where-is-vhdls-jquery/
+xork lives at https://github.com/stantonk/xork
