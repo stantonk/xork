@@ -29,11 +29,11 @@ begin
 	generic map (WIDTH => 8)
 	port map (clk, rst, din, din_v, dout, dout_v);
 	
-	clock : entity xork.clkgen(rtl)
+	clock : entity xork.clkgen(beh)
 	generic map (PERIOD)
 	port map (clk);
 	
-	reset : entity xork.rstgen(rtl)
+	reset : entity xork.rstgen(beh)
 	generic map (DELAY => (3*PERIOD), POLARITY => '1')
 	port map (rst);
 	

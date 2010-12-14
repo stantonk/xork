@@ -11,7 +11,7 @@ entity clkgen is
 	port (clk : out std_logic);
 end clkgen;
 
-architecture rtl of clkgen is
+architecture beh of clkgen is
 begin
 	generateClk : process
 	begin
@@ -20,4 +20,4 @@ begin
 		clk <= '1';
 		wait for PERIOD/2;
 	end process;
-end architecture rtl;
+end architecture beh;

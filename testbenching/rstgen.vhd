@@ -11,7 +11,7 @@ entity rstgen is
 	port (rst: out std_logic);
 end rstgen;
 
-architecture rtl of rstgen is
+architecture beh of rstgen is
 begin
 	generateRst : process
 	begin
@@ -20,4 +20,4 @@ begin
 		rst <= not POLARITY;
 		wait;
 	end process;
-end architecture rtl;
+end architecture beh;
